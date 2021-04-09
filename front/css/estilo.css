@@ -1,0 +1,83 @@
+body,html{
+    height: 100%;
+    background-color:rgba(211, 131, 66, 0.884)
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+img{
+    height: 80px;
+    width: 70px;
+}
+
+#msgError{
+    color:orange;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.row{
+    padding-top: 1em;
+}
+
+.underline {
+    text-decoration-line: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+.titulo {
+    padding-top: 0px;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+
+.table-overflow{
+    max-height: 300px;
+    overflow-y: auto;
+
+}
+
+.tituloCentro{
+    text-align: center;
+}
+
+.titulo-tabela{
+    color:blue;
+    font-weight: bold;
+    font-size:medium;
+}
+
+.underlinefront {
+    text-decoration-line: underline;
+    color: orange;
+    font-weight: bold;
+    }
+
+.jumbotron {
+background-color: rgb(59, 73, 204);
+}
+
+.font{
+    color:blue;
+    font-weight: bold;
+}
+
+.border-black{
+
+    border:black solid 2px;
+
+}
+
+.btnLaranja{
+    background-color:rgba(211, 131, 66, 0.884);
+    color: white;
+}
+
+.imgItau{
+    height: 80px;
+    width: 80px;
+}

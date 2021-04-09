@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="/css/estilo.css">
+
+    <script src="/js/menu.js"></script>
+
+    <title>Menu</title>
+
+
+</head>
+
+<body onload="validaLogin()">
+    <div class="container col-12">
+
+        <div class="row titulo col-12">
+            <h4 class="underline">Itaumon - Dashboard de eventos </h3>
+                <button class="btn btn-sm font " onclick="logout()">Logout</button>
+        </div>
+        <div class="row col-12">
+            <div id="foto"></div>
+            <div id="user" class="font pl-2" style="align-self: center;"></div>
+        </div>
+        <br>
+        <h5 class="tituloCentro font">Escolha qual relatório deseja executar</h5>
+        <!-- card de escolhas -->
+        <br>
+        <div style="text-align: center;">
+
+            <a href="/eventos.html" class="btn btn-light">Relatório de eventos</a>
+            <a href="/alarmes.html" class="btn btn-light">Relatório de alarmes</a>
+
+        </div>
+
+
+        <!-- <div id="datas" class="">
+            <input type="date" id="dataInicio">
+            <input type="date" id="dataFinal">
+        </div>
+        <br>
+        <button id="btnEventos" class="btn btn-outline-primary" onclick="gerarRelatorioEventos()">Gerar Relatório
+            Eventos</button>
+        
+        <button id="btnAlarme" class="btn btn-outline-primary" onclick="gerarRelatorioAlarmes()">Gerar Relatório
+            Alarmes</button>
+        <br>
+        <br>
+        <div id="tabela" class="table-overflow"></div> -->
+
+    </div>
+
+</body>
+
+
+</html>
